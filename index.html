@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Pillars Visual</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 2rem;
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin: 3rem 0;
+      flex-wrap: wrap;
+    }
+    .pillar {
+      width: 100px;
+      background: #fff;
+      border: 2px solid #ccc;
+      border-radius: 12px 12px 0 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .pillar:hover {
+      transform: translateY(-10px);
+    }
+    .pillar h3 {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      color: #555;
+    }
+    .pillar span {
+      font-size: 2rem;
+      display: block;
+    }
+    .qr {
+      margin-top: 2rem;
+    }
+    .qr img {
+      width: 150px;
+      border: 4px solid #e0e0e0;
+      border-radius: 8px;
+    }
+    .qr p {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h2>Three Pillars for Transformation</h2>
+  <div class="container">
+    <div class="pillar">
+      <span>🚀</span>
+      <h3>SaaS+AI</h3>
+    </div>
+    <div class="pillar">
+      <span>😊📊</span>
+      <h3>CX Metrics</h3>
+    </div>
+    <div class="pillar">
+      <span>📈🔍</span>
+      <h3>Dashboards</h3>
+    </div>
+  </div>
+  <div class="qr">
+    <p>Scan to Vote:</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://your-voting-link.com&size=150x150" alt="QR Code for Voting">
+  </div>
+</body>
+</html>
+
